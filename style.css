@@ -79,8 +79,6 @@ p, a, h1, h2, h3, h4{
     flex-basis:40%;
     justify-content: center;
     align-items: center;
-    height:100%;
-    
     
     display:flex;
     gap:40px;
@@ -98,11 +96,10 @@ p, a, h1, h2, h3, h4{
 }
 
 .head-logo{
-    max-width:10vw;
-    min-width:9vw;
-    height:auto;
     
-    width:100%;
+    height:auto;
+    width:50%;
+    
 }
 
 
@@ -134,13 +131,34 @@ p, a, h1, h2, h3, h4{
 }
 
 .footer{
-    
-    
-    display:flex;
-    
-    flex-direction: column;
+   display:flex;
+        flex-direction: column;
     gap:10px;
 }
+
+@media all and (max-width:568px){
+
+    .container{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left:0;
+    }
+    .login-container{
+        
+      
+        flex-basis:100%;
+
+    }
+
+    .blank{
+        flex-basis:0;
+    }
+
+    
+}
+
 
 
 
