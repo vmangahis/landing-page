@@ -79,7 +79,8 @@ p, a, h1, h2, h3, h4{
     flex-basis:40%;
     justify-content: center;
     align-items: center;
-    
+    min-height:200px;
+    min-width:540px;
     display:flex;
     gap:40px;
     
@@ -98,7 +99,8 @@ p, a, h1, h2, h3, h4{
 .head-logo{
     
     height:auto;
-    width:50%;
+    text-align: center;
+    width:40%;
     
 }
 
@@ -138,22 +140,27 @@ p, a, h1, h2, h3, h4{
 
 @media all and (max-width:568px){
 
+    
+
     .container{
         display:flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         margin-left:0;
+        height:100vh;
     }
     .login-container{
-        
-      
+        border-radius: 0;
+        width:100vw;
+        height:100vh;
+        min-width:0;
         flex-basis:100%;
 
     }
 
     .blank{
-        flex-basis:0;
+        flex-basis:0%;
     }
 
     
