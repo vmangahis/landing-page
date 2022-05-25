@@ -198,11 +198,11 @@ p, a, h1, h2, h3, h4, label, input{
    
 
     .footer p {
-        font-size: 2.4vw;
+        font-size: 2.8vw;
     }
 
     .login-form  label, .sign-in-button, .forgot-pass{
-        font-size:3vw;
+        font-size:3.5vw;
     }
 
     
