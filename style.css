@@ -35,7 +35,7 @@ p, a, h1, h2, h3, h4, label, input{
 
 .input-container > label{
     font-weight:bold;
-    color:rgb(52, 72, 255);
+    color:rgb(45,86,178);
     font-size:1.44vmin;
     margin-right:20px;
 }
@@ -76,9 +76,9 @@ p, a, h1, h2, h3, h4, label, input{
 .see-password{
     
     margin-left:-30px;
-    
+    background-color: white;
     cursor:pointer;
-    
+    padding-left: 2px;
     z-index:3;
     
 }
@@ -127,8 +127,8 @@ p, a, h1, h2, h3, h4, label, input{
     margin-right:auto;
     outline: none;
     border-radius:10px;
-    border: 2px solid rgb(0, 132, 255);
-    background-color:rgb(0, 132, 255);
+    border: 2px solid rgb(45,86,178);
+    background-color:rgb(45,86,178);
     padding:15px;
     color:white;
     cursor:pointer;
@@ -136,7 +136,7 @@ p, a, h1, h2, h3, h4, label, input{
 }
 
 .login-header{
-    color:rgb(52, 72, 255);
+    color:rgb(45,86,178);
     width:50%;
     padding-bottom:20px;
     border: solid  black;
