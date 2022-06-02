@@ -6,7 +6,7 @@
 }
 
 body{
-    background-image: url('./img/BG_2.jpg');
+    background-image: url('../img/BG_2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -105,17 +105,8 @@ p, a, h1, h2, h3, h4, label, input{
  
 
 .blank{
-    
     flex-basis:80%;
 }
-
-.image-container{
-    background-image: url('./img/Head_Logo.png');
-    width:100%;
-    height:auto;
-    padding:200px;
-}
-
 
 
 
